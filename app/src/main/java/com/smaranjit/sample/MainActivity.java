@@ -1,4 +1,4 @@
-package com.smaranjit.smsverifycatcherex;
+package com.smaranjit.sample;
 
 import androidx.appcompat.app.AppCompatActivity;
 
