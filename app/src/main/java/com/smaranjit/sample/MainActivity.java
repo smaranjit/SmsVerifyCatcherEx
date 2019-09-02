@@ -4,7 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.smaranjit.smsverifycatcherex.SmsVerifyCatcher;
+
 public class MainActivity extends AppCompatActivity {
+
+    SmsVerifyCatcher mSmsVerifyCatcher;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
