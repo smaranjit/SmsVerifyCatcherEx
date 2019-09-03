@@ -1,2 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.smaranjit.smsverifycatcherex" />
+    package="io.github.smaranjit.smsverifycatcherex" >
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+</manifest>

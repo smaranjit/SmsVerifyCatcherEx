@@ -14,7 +14,7 @@
  * limitations under the License.
  *******************************************************************************/
 
-package com.smaranjit.smsverifycatcherex;
+package io.github.smaranjit.smsverifycatcherex;
 
 import android.Manifest;
 import android.app.Activity;

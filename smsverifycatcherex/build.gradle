@@ -6,7 +6,7 @@ publish {
 
     def groupProjectID = 'io.github.smaranjit'
     def artifactProjectID = 'smsverifycatcherex'
-    def publishVersionID = '0.1.0'
+    def publishVersionID = '0.1.1'
 
     userOrg = 'smaranjit'
     repoName = 'SmsVerifyCatcherEx'

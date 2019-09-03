@@ -1,4 +1,4 @@
-package com.smaranjit.sample;
+package io.github.smaranjit.sample;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,8 +12,8 @@ import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
-import com.smaranjit.smsverifycatcherex.OnSmsCatchListener;
-import com.smaranjit.smsverifycatcherex.SmsVerifyCatcher;
+import io.github.smaranjit.smsverifycatcherex.OnSmsCatchListener;
+import io.github.smaranjit.smsverifycatcherex.SmsVerifyCatcher;
 
 import java.util.List;
 import java.util.regex.Matcher;
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mSmsVerifyCatcher.setPhoneNumberFilterEx("xxxxX");
+        mSmsVerifyCatcher.setPhoneNumberFilterEx("xxxXX");
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.smaranjit.sample;
+package io.github.smaranjit.smsverifycatcherex;
 
 import org.junit.Test;
 

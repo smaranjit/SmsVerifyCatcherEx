@@ -14,7 +14,7 @@
  * limitations under the License.
  *******************************************************************************/
 
-package com.smaranjit.smsverifycatcherex;
+package io.github.smaranjit.smsverifycatcherex;
 
 public interface OnSmsCatchListener<T> {
     void onSmsCatch(String message);

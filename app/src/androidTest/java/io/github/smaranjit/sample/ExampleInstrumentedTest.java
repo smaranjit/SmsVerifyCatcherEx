@@ -1,4 +1,4 @@
-package com.smaranjit.smsverifycatcherex;
+package io.github.smaranjit.sample;
 
 import android.content.Context;
 
@@ -8,7 +8,7 @@ import androidx.test.runner.AndroidJUnit4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.smaranjit.smsverifycatcherex.test", appContext.getPackageName());
+        assertEquals("com.smaranjit.sample", appContext.getPackageName());
     }
 }
