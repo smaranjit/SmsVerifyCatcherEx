@@ -1,21 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
-
-//Step II: Add the below publish details
-publish {
-
-    def groupProjectID = 'io.github.smaranjit'
-    def artifactProjectID = 'smsverifycatcherex'
-    def publishVersionID = '0.1.1'
-
-    userOrg = 'smaranjit'
-    repoName = 'SmsVerifyCatcherEx'
-    groupId = groupProjectID
-    artifactId = artifactProjectID
-    publishVersion = publishVersionID
-    desc = 'Modified and extended version of SmsVerifyCatcher library'
-    website = 'https://github.com/smaranjit/SmsVerifyCatcherEx'
-}
 
 android {
     compileSdkVersion 28
